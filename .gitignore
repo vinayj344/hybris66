@@ -1,0 +1,86 @@
+######################################
+# Mercury Git ignore file
+######################################
+
+# Ignore Hybris OOTB files/folder
+ 
+**
+#!**/bin/custom/tatacliq
+!**/bin/custom
+*.iml
+
+
+installer/*
+
+
+build-tools/*
+
+licenses/*
+
+
+**/config/*
+
+
+**/data
+**/log
+**/roles
+**/temp
+
+#Ignore Eclipse project and settings files
+.classpath
+.classpath.bak
+.settings
+
+#Ignore specific directory structure files for macOS
+**/.DS_Store
+
+# Ignore Hybris project and settings files
+platformhome.properties
+dummy.txt
+README.md
+
+# Ignore Hybris folders in projects
+**/notused
+**/classes
+**/testclasses
+**/eclipsebin
+**/hmc/bin
+**/gensrc
+**/target
+**/jalo
+**/_ui
+
+
+##########################################
+#  specific generated files and foldrs   #
+##########################################
+**/addonsrc/
+**/_ui/addons/
+**/_ui-src/addons/
+**/_ui/responsive/theme*/css/
+**/gensrc/*
+
+**/views/addons/
+**/tld/addons/
+**/tags/addons/
+**/messages/addons/
+**/*storefront/web/commonwebsrc/
+**/*storefront/web/webroot/*cockpit/
+**/*storefront/resources/wro_addons.xml
+
+**/*_bof.jar
+**/node_modules
+**/resources/beans.xsd
+**/resources/items.xsd
+**/*testclasses.xml
+
+
+
+extensioninfo.xsd
+build.xml
+!/config/customize/platform/build.xml
+**/hmc/resources/hmc.xsd
+
+### Adding IntelliJ setting folder ######
+.idea
+
